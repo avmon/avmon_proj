@@ -1,0 +1,16 @@
+(cl:in-package raspicam_node-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          STEERING_ERROR-VAL
+          STEERING_ERROR
+          PARKING_STG1_STEERING_ERROR-VAL
+          PARKING_STG1_STEERING_ERROR
+          PARKING_STG2_STEERING_ERROR-VAL
+          PARKING_STG2_STEERING_ERROR
+          BEGIN_PARKING-VAL
+          BEGIN_PARKING
+          PARKING_STG1_STOP-VAL
+          PARKING_STG1_STOP
+          PARKING_STG2_STOP-VAL
+          PARKING_STG2_STOP
+))

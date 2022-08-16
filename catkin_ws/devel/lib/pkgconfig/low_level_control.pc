@@ -1,0 +1,8 @@
+prefix=/home/corvin/catkin_ws/devel
+
+Name: low_level_control
+Description: Description of low_level_control
+Version: 0.0.0
+Cflags: -I/home/corvin/catkin_ws/devel/include
+Libs: -L/home/corvin/catkin_ws/devel/lib 
+Requires: message_runtime
