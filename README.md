@@ -37,6 +37,10 @@ You may also treat all measurements from CARLA to be with respect to the center 
 
 In one terminal in the CarlaSimulator folder, start the CARLA simulator at a 10hz fixed time-step:
 
+### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.60em" aria-hidden="true"></i>**Ubuntu**:
+
+./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -benchmark -fps=10
+
 ### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.60em" aria-hidden="true"></i>**Windows**:
 
 ![Semantic description of image](/images/5.bmp "")
@@ -45,6 +49,10 @@ CarlaUE4.exe /Game/Maps/RaceTrack -windowed -carla-server -benchmark -fps=10
 
 In another terminal, change the directory to go into the "Course1FinalProject" folder, under the "PythonClient" folder.
 Run your controller, execute the following command while CARLA is open:
+
+### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.60em" aria-hidden="true"></i>**Ubuntu**: (use alternative python commands if the command below does not work, as described in the CARLA install guide):
+
+python3 module.py
 
 
 ### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.60em" aria-hidden="true"></i>**Windows**: (use alternative python commands if the command below does not work, as described in the CARLA install guide):
@@ -72,4 +80,8 @@ Please note that you may need to use an optimization method to train the quadcop
 
 ### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.150em" aria-hidden="true"></i>***RC CAR***
 
-To be done.
+To run our module node , please run refernceMonitor_v8.py under the (catkin_ws\src) folder using the below command:
+
+$ rosrun refernceMonitor_v8
+
+Please note that our Residual Learning module was degraded since we did not have a large data set for our RC car.
