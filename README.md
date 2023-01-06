@@ -63,7 +63,8 @@ The controls feedback shows the throttle, steering and brake outputs, as well as
 
 ### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.150em" aria-hidden="true"></i>***Quadcopter***
 
-1- To train the quadcopter, you can use the (Trainning) folder. Please note that you need to use an optimization code to train the quadcopter multiple times as mentioned in the paper (AVMon).
+1- To train the quadcopter, you can use the (Trainning) folder. 
+Please note that you may need to use an optimization method to train the quadcopter multiple times as mentioned in the paper (AVMon).
 
 2- To test the quadcopter, you can run the UKF.py file.
 
