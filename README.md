@@ -13,6 +13,7 @@ Then you should have the complete project files as shown below:
 
 Installation:
 1-	First, download the simple version of CARLA (Carla.zip) from (https://drive.google.com/file/d/1wFMEsE_L1jIvxyGUc071EQIOHIK1rrjt/view?usp=sharing).
+<ins>Note that this version is for testing purpose only. We used the full version of Carla for large scale training and testing.</ins>
 
 2-	Then you can unzip it.  Note: You can use any version of CARLA if you are familiar with it. 
 
