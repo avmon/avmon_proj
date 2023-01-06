@@ -1,2 +1,0 @@
-low_level_control:raspicam_node:vl53l1x_ros/vl53l1x
--DCATKIN_DEVEL_PREFIX=/home/corvin/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/corvin/catkin_ws/install -G Unix Makefiles
