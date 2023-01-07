@@ -91,7 +91,7 @@ Please note that our Residual Learning module was degraded since we did not have
 
 ### Graphs from Pixhawk4
 
-Running experiments on Pixhawk4 hardware will produced consolidated log file in `.ulog` format. You can read more about `ulog` [here](https://docs.px4.io/main/en/dev_log/ulog_file_format.html). This file can be uploaded to [PX4 flight review website](https://review.px4.io/) to get various graphs. There is a command line tool `ulog2csv` to produced different csv files whose data is stored in the `ulog` file. 
+Running experiments on Pixhawk4 hardware produce consolidated log file in `.ulog` format. You can read more about `ulog` [here](https://docs.px4.io/main/en/dev_log/ulog_file_format.html). This file can be uploaded to [PX4 flight review website](https://review.px4.io/) to get various graphs. There is a command line tool `ulog2csv` to produced different csv files whose data is stored in the `ulog` file. 
 
 #### Installing `ulog2csv`
 
