@@ -82,6 +82,27 @@ Please note that you may need to use an optimization method to train the quadcop
 
 To run our module node , please run refernceMonitor_v8.py under the (catkin_ws\src) folder using the below command:
 
+```bash
 $ rosrun refernceMonitor_v8
+```
 
 Please note that our Residual Learning module was degraded since we did not have a large data set for our RC car.
+
+
+### Graphs from Pixhawk4
+
+Running experiments on Pixhawk4 hardware will produced consolidated log file in `.ulog` format. You can read more about `ulog` [here](https://docs.px4.io/main/en/dev_log/ulog_file_format.html). This file can be uploaded to [PX4 flight review website](https://review.px4.io/) to get various graphs. There is a command line tool `ulog2csv` to produced different csv files whose data is stored in the `ulog` file. 
+
+#### Installing `ulog2csv`
+
+Following commands can be used in Ubuntu/Mac
+
+```bash
+$ py -m pip install pyulog
+``` 
+
+For getting `csv` files from `ulog` file
+
+```bash
+$ ulog2csv <name_of_ulog_file>.ulog
+``` 
