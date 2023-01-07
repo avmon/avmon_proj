@@ -80,10 +80,19 @@ Please note that you may need to use an optimization method to train the quadcop
 
 ### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.150em" aria-hidden="true"></i>***RC CAR***
 
+Main steps needed to run the car are:
+
+1. Instaill ROS (Robot Operating System)
+2. ```catkin_make```
+3. ```roslaunch raspicam_node j_shape_perception.launch```
+4. ```rosrun low_level_control low_level_j_d.py```
+5. ```rosrun vl53l1x vl53l1x_node```
+
+
 To run our module node , please run refernceMonitor_v8.py under the (catkin_ws\src) folder using the below command:
 
 ```bash
-$ rosrun refernceMonitor_v8
+$ rosrun RefernceMonitor
 ```
 
 Please note that our Residual Learning module was degraded since we did not have a large data set for our RC car.
